@@ -100,7 +100,7 @@
         </div>
       </div>
 
-      <input type="submit" name="submit" vlaue="Choose options">
+      <input type="submit" name="submit" value="Choose options">
     </form>
 
     <?php
