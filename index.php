@@ -104,9 +104,20 @@
     <?php
       if(isset($_POST['submit'])){
         if(!empty($_POST['Fruit'])) {
-          $selected = $_POST['Fruit'];
-          echo 'You have chosen: ' . $selected;
-        } else {
+          $selected = $_POST['Fruit'];}
+          if ($selected =="shop1")
+          {
+            echo "select shop1");
+          }
+        if ($selected =="shop2")
+        {
+        echo "select shop2");
+        }  
+        if($selected =="All_shop") 
+        {
+        echo" select two shop";
+        }
+        else {
           echo 'Please select the value.';
         }
       }
