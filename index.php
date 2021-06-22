@@ -102,19 +102,13 @@
       if(isset($_POST['submit'])){
         if(!empty($_POST['Fruit'])) {
           $sel = $_POST['Fruit'];
-        } 
-        if($sel == 'shop1')
-        {
-        echo ('You login for shop1');}
-        if($sel == 'shop2')
-        {
-          echo('you login for shop2');
+          echo ("Select .$sel");
         }
-        if($sel == 'all')
+        else
         {
-          echo('you login both 2 shop'):
+          echo("Please select again");
         }
-      }
+       
     ?>
   </div>
 
