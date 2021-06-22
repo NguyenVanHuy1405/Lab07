@@ -108,6 +108,7 @@
         {
           echo("Please select again");
         }
+      }
        
     ?>
   </div>
