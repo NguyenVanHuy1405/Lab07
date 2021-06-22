@@ -101,10 +101,18 @@
     <?php
       if(isset($_POST['submit'])){
         if(!empty($_POST['Fruit'])) {
-          $selected = $_POST['Fruit'];
-          echo 'You have chosen: ' . $selected;
-        } else {
-          echo 'Please select the value.';
+          $sel = $_POST['Fruit'];
+        } 
+        if($sel == 'shop1')
+        {
+        echo ('You login for shop1');}
+        if($sel == 'shop2')
+        {
+          echo('you login for shop2');
+        }
+        if($sel == 'all')
+        {
+          echo('you login both 2 shop'):
         }
       }
     ?>
